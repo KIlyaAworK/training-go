@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "Введите ваше имя: " name
+mkdir "$name"
+cd $name
+echo "Привет, $name! Это твоя первая папка." > welcome.txt
